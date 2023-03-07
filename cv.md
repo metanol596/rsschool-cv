@@ -39,6 +39,36 @@ const checkStringLength = (checkedString, maxStringLength) => {
 
 ```
 
+***Codewars kata:*** 
+**Count characters in your string**
+
+_Count all the occurring characters in a string. If you have a string like **aba**, then the result should be `{'a': 2, 'b': 1}`. If the string is empty, then the result should be empty object literal, `{}`_
+
+```
+
+function count (string) {  
+  let cache = {};
+  
+  if (string) {
+    const res = string.split('').reduce((cache, curr) => {
+      
+      if (!cache[curr]) { 
+        cache[curr] = 0;
+      }
+       
+      cache[curr]++;
+      
+      return cache;
+    }, cache);
+    
+    return res;
+  }
+  
+  return {};
+}
+
+```
+
 ## Experience 
 
 - JGate - small startup. I have been involved in projects such as:
