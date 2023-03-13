@@ -73,6 +73,7 @@ function count (string) {
 
 - JGate - small startup. I have been involved in projects such as:
 
+_Projects:_
 - Project for a private clinic,
 - NFT Marketplace
 
